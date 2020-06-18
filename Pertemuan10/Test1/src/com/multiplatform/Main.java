@@ -16,7 +16,7 @@ public class Main {
         System.out.println(isCatPlaying(false, 35));
     }
     public static boolean shouldWakeUp(boolean barking, int hourOfDay) {
-        if (barking) 
+        if (barking)
             if (hourOfDay < 0 || hourOfDay > 23) {
                 return false;
             } else if (hourOfDay < 8 || hourOfDay > 22) {
